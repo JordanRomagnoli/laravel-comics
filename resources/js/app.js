@@ -4,6 +4,7 @@ import './bootstrap';
 import '~resources/scss/app.scss';
 import '~resources/scss/header.scss';
 import '~resources/scss/welcome.scss';
+import '~resources/scss/footer.scss';
 
 // Import all of Bootstrap's JS
 import * as bootstrap from 'bootstrap';

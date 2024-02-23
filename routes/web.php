@@ -17,11 +17,13 @@ Route::get('/', function () {
     $comics = config('comics');
     $info = config('info');
     
-    return view('welcome', compact('comics', 'info'));
+    return view('comics', compact('comics', 'info'));
 });
 
 
-Route::get('/chi-siamo', function () {
-    return view('subpages.about');
+Route::get('characters', function () {
+
+    
+    return view('subpages.characters');
 });
 
