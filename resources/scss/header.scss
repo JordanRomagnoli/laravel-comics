@@ -30,8 +30,8 @@ header{
                     height: 110px;
                     padding: 5px;
                     transition: all .1s ease-in;
-                    &:hover,
-                    &.active{
+                    &:hover{
+                    //&.active
                         border-bottom: 5px solid #0c7cec;
                     }
                 }

@@ -20,8 +20,22 @@
 
             <button>Load more</button>
         </div>
-        
-        
     </div>
+
+    <section class="bottom-main">
+        <div class="container">
+            <div class="row justify-content-between ">
+                @foreach($info as $singleInfo)
+                    <div class="info-card">
+                        <div class="icon-frame">
+                            <img src="{{ Vite::asset($singleInfo['img']) }}" alt="">
+                        </div>
+
+                        <span>{{ $singleInfo['name'] }}</span>
+                    </div>
+                @endforeach
+            </div>
+        </div>
+    </section>
     
 @endsection
