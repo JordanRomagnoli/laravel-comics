@@ -8,6 +8,8 @@ export default defineConfig({
             input: [
                 // Compila il mio file scss in css (che verrà messo dentro public)
                 'resources/scss/app.scss',
+                'resources/scss/header.scss',
+                'resources/scss/welcome.scss',
                 'resources/js/app.js'
             ],
             refresh: true,

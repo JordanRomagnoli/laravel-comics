@@ -2,6 +2,8 @@ import './bootstrap';
 
 // Ci portiamo appresso il file scss
 import '~resources/scss/app.scss';
+import '~resources/scss/header.scss';
+import '~resources/scss/welcome.scss';
 
 // Import all of Bootstrap's JS
 import * as bootstrap from 'bootstrap';

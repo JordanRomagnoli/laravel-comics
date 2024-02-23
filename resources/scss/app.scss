@@ -1,15 +1,16 @@
 @import "~bootstrap/scss/bootstrap";
 
-main {
-    background-color: lightcoral;
-}
-
-.gatto-img {
-    height: 200px;
-}
-
-.gatto-bg {
-    height: 200px;
-    background-image: url('../img/gatto.webp');
-    background-size: contain;
+*{
+    .roboto-regular {
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+      .roboto-medium {
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+      }
+      
 }

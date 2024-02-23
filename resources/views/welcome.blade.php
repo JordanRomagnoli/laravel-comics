@@ -1,13 +1,27 @@
 @extends('layouts.app')
 
-@section('page-title', 'Home')
+@section('page-title', 'Comix')
 
 @section('main-content')
-<h1>
-    Laravel Start 1
-</h1>
+    <div class="jumbotron">
+    </div>
 
-<h2>
-    Ciao {{ $firstName }} {{ $lastName }}
-</h2>
+    <div class="container">
+        <h1>
+            Current Series
+        </h1>
+
+        <div class="comix-container">
+            <div class="row g-0  flex-wrap justify-content-center ">
+                @foreach($comics as $comic)
+                    @include('partials.comic')
+                @endforeach
+            </div>
+
+            <button>Load more</button>
+        </div>
+        
+        
+    </div>
+    
 @endsection
