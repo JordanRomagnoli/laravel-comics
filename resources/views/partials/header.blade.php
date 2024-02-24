@@ -64,7 +64,7 @@
             <nav>
                 <ul class="p-0 m-0">
                     @foreach ($links as $link)
-                        <li class="m-2 mb-0 ">
+                        <li class="m-2 mb-0 mt-0">
                                 <a href="{{ $link['url'] }}">
                                     {{ strtoupper($link['label']) }}
                                 </a>
@@ -75,7 +75,7 @@
 
             
             <form action="get">
-                <input type="text" placeholder="Search">
+                <input type="text" placeholder="Search"><i class="fa-solid fa-magnifying-glass"></i>
             </form>
             
         </div>

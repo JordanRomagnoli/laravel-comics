@@ -32,7 +32,25 @@
         'Shop DC',
         'Shop DC collectibles'
     ]
-]
+];
+
+$socialFooter =[
+    [
+        "img" => "resources/img/footer-facebook.png",
+    ],
+    [
+        "img"=> "resources/img/footer-twitter.png",
+    ],
+    [
+        "img"=> "resources/img/footer-youtube.png",
+    ],
+    [
+        "img"=> "resources/img/footer-pinterest.png",
+    ],
+    [
+        "img"=> "resources/img/footer-periscope.png",
+    ]
+];
 @endphp
 
 <footer>
@@ -82,7 +100,7 @@
                         </div>
                         <div class="col-12">
                             <p>
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum inventore nemo assumenda veritatis voluptatibus.
+                                Lorem ipsum dolor sit amet consectetur, <span>adipisicing elit</span>. Laborum inventore nemo assumenda veritatis <span>voluptatibus</span>.
                             </p>
                         </div>
                     </div>
@@ -98,11 +116,20 @@
     <section class="bottom-footer">
         <div class="container">
             <div class="row">
-                <div class="col-6">
-
+                <div class="col-6 left">
+                    <a href="#nogo">sign-up now!</a>
                 </div>
-                <div class="col-6">
-                    
+                <div class="col-6 right">
+                    <span>follow us</span>
+                    <ul>
+                        @foreach($socialFooter as $singleSocial)
+                            <li>
+                                <a href="">
+                                    <img src="{{ Vite::asset($singleSocial['img']) }}" alt="">
+                                </a>
+                            </li>
+                        @endforeach
+                    </ul>
                 </div>
             </div>
         </div>

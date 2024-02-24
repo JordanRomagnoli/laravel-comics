@@ -24,6 +24,9 @@ footer{
                                 text-decoration: none;
                                 color: gray;
                                 font-size: 0.9rem;
+                                &:hover{
+                                    color: rgb(194, 194, 194);
+                                }
                             }
                         }
                     }
@@ -31,6 +34,10 @@ footer{
                     p{
                         font-size: 0.9rem;
                         color: gray;
+
+                        span{
+                            color: #0c7cec;
+                        }
                     }
                 }
 
@@ -50,6 +57,44 @@ footer{
 
         .col-6{
             padding: 20px 0;
+            display: flex;
+            align-items: center;
+        }
+        .col-6.left{
+            a{
+                text-transform: uppercase;
+                padding: 10px;
+                text-decoration: none;
+                color: white;
+                border-width: 1px;
+                border-style: solid;
+                border-image: linear-gradient(to right, rgb(0, 247, 255), rgb(42, 28, 234)) 1;
+            }
+        }
+
+        .col-6.right{
+            justify-content: center;
+
+            span{
+                text-transform: uppercase;
+                color: #0c7cec;
+                font-weight: bold;
+            }
+            ul{
+                list-style: none;
+                display: flex;
+                align-items: center;
+
+                li{
+
+                    margin: 0 5px;
+                    a{
+                        img{
+                            width: 30px;
+                        }
+                    }
+                }
+            }
         }
     }
 }

@@ -40,11 +40,17 @@ header{
     }
 
     form{
+
+        border-bottom: 3px solid #0c7cec;
         input{
             border: 0;
             text-align: end;
-            border-bottom: 3px solid #0c7cec;
+            font-weight: bold;
             width: 150px;
+            margin-right: 5px;
+        }
+        span{
+            font-weight: bold;
         }
     }
 }
