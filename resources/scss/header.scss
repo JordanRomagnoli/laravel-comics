@@ -1,5 +1,26 @@
 @import "~bootstrap/scss/bootstrap";
 
+.top-header{
+
+    padding: 2px;
+    background-color: #0c7cec;
+    .row{
+        justify-content: end;
+        align-items: center;
+
+        .col-4{
+
+            text-align: end;
+            span{
+                font-size: 0.7rem;
+                color: white;
+                font-weight: bold;
+                margin: 0 0 0 40px;
+            }
+        }
+    }
+}
+
 header{
 
     .logo-frame{

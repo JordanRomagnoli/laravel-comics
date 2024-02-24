@@ -52,7 +52,16 @@
         ],
     ];
 @endphp
-
+<div class="top-header">
+    <div class="container">
+        <div class="row g-0 ">
+            <div class="col-4">
+                <span>DC POWER VISA</span>
+                <span>ADDITIONAL DC SITES</span>
+            </div>
+        </div>
+    </div>
+</div>
 <header>
     <div class="container">
         <div class="d-flex justify-content-between  align-items-center ">

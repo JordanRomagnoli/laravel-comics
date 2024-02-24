@@ -11,6 +11,7 @@ export default defineConfig({
                 'resources/scss/header.scss',
                 'resources/scss/welcome.scss',
                 'resources/scss/footer.scss',
+                'resources/scss/main-character.scss',
                 'resources/js/app.js'
             ],
             refresh: true,

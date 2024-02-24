@@ -23,7 +23,11 @@ Route::get('/', function () {
 
 Route::get('characters', function () {
 
-    
     return view('subpages.characters');
 });
 
+
+Route::get('movies', function () {
+
+    return view('subpages.movies');
+});

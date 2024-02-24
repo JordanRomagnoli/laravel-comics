@@ -1,0 +1,36 @@
+main{
+    .jumbotron-character{
+        background-color: aqua;
+        background-image: url(../img/_MG_8965.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        .container{
+            .row{
+                .col-4{
+                    display: flex;
+                    min-height: 590px;
+                    align-items: center;
+                    flex-wrap: wrap;
+
+                    h2{
+                        font-weight: 900;
+                        color: white;
+                        font-size: 2.4rem;
+                    }
+                    a{
+                        display: inline-block;
+                        padding: 15px 30px;
+                        background-color: #0c7cec;
+                        color: white;
+                        text-transform: uppercase;
+                        font-weight: bold;
+                        font-size: 1.5rem;
+                        text-decoration: none;
+                    }
+
+                }
+            }
+        }
+    }
+}
